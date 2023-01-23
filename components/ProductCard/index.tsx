@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { productCategory } from "./../../utils/constant";
-import ViewProduct from "../ViewProduct";
 import classNames from "classnames";
 import { ScrollContainer } from "react-indiana-drag-scroll";
 
@@ -31,7 +30,6 @@ const ProductCard = () => {
                 </ul>
             </ScrollContainer>
 
-            <ViewProduct productState={productState} />
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { productCategory } from "./../../utils/constant";
-import ViewProduct from "./../ViewProduct/index";
+import ViewProduct from "../ViewProduct";
 import classNames from "classnames";
 import { ScrollContainer } from "react-indiana-drag-scroll";
 
